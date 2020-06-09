@@ -17,12 +17,12 @@ CLIENT = Client(ACCOUNT_SID, AUTH_TOKEN)
 
 # Frequency dictionary keyed by months to go
 FREQUENCY = {
-    1: 15 * 60,         # 15 minutes
-    2: 30 * 60,         # 30 minutes
-    3: 60 * 60,         # hour
-    4: 2 * 60 * 60,     # 2 hours
-    5: 4 * 60 * 60,     # 4 hours
-    6: 8 * 60 * 60,     # 8 hours
+    1: 30 * 60,         # 30 minutes
+    2: 60 * 60,         # hour
+    3: 2 * 60 * 60,     # 2 hours
+    4: 4 * 60 * 60,     # 4 hours
+    5: 8 * 60 * 60,     # 8 hours
+    6: 16 * 60 * 60,    # 16 hours
 }
 
 def sendtext(to, body):
