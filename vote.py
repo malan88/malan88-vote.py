@@ -49,6 +49,7 @@ def checkho(seconds):
         delta = t_time - dt.datetime.now()
         print("Text would be too late, rescheduling...")
 
+    print("Scheduling text a go for", t_time.isoformat())
     return delta.seconds
 
 
