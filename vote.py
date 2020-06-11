@@ -18,7 +18,7 @@ CLIENT = Client(ACCOUNT_SID, AUTH_TOKEN)
 # 0 indexed 6 month period, array of seconds until next text
 # commented array in hours
 # [0.5, 2, 4.5, 8, 12.5, 18]
-DEFAULTFREQ = [i**2 * 30 * 60 for i in range(1,7)]
+DEFAULTFREQ = [2**i * 30 * 60 for i in range(1,7)]
 
 # Default Hours of Operation
 DEFAULTHO = [7,22]
