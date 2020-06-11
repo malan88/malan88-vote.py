@@ -68,9 +68,9 @@ def getseconds(duedate, test=False):
 
     try:
         if not test:
-            seconds = freq[timetogo.days // 30 + 1] # interval of months
+            seconds = freq[timetogo.days // 30] # interval of months
         else:
-            seconds = freq[timetogo.seconds // 60 + 1] / 60 / 60 # minutes
+            seconds = freq[timetogo.seconds // 60] / 60 / 60 # minutes
     except IndexError:
         seconds = freq[-1]
         if test:
