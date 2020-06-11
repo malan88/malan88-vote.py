@@ -28,7 +28,7 @@ First, make sure you update, upgrade, and install python3-venv:
 Then, go ahead and clone the repo (this guy ftp's his entire python script
 directory... Okay...).
 
-![okay...](https://giphy.com/embed/G4ZNYMQVMH6us)
+![okay...](https://giphy.com/media/G4ZNYMQVMH6us/giphy.gif)
 
 Set up your virtual environment, activate it, and install the requirements.txt:
 
