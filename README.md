@@ -28,7 +28,7 @@ First, make sure you update, upgrade, and install python3-venv:
 Then, go ahead and clone the repo (this guy ftp's his entire python script
 directory... Okay...).
 
-<div style="width:100%;height:0;padding-bottom:89%;position:relative;"><iframe src="https://giphy.com/embed/G4ZNYMQVMH6us" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/comic-vine-yoda-G4ZNYMQVMH6us">via GIPHY</a></p>
+![okay...](https://giphy.com/embed/G4ZNYMQVMH6us)
 
 Set up your virtual environment, activate it, and install the requirements.txt:
 
